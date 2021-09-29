@@ -16,8 +16,8 @@ _To create the staging and production VPCs_
     * Choose Create Stack on the Stacks page. This option is visible only if you have no running stacks.
 3. Choose a stack template:
     * On the Specify template page, choose a stack template by using one of the following options:
-        1. `Template is ready`
-        2. `Upload a template file`
+    1. `Template is ready`
+    2. `Upload a template file`
     * Choose Choose File to select the template file that you want to upload. The template can be a maximum size of 1 MB. Once you have chosen your template, CloudFormation uploads the file and displays the S3 URL.
 4. To accept your settings, choose Next, and proceed with specifying the stack name:   
     * `UAT` as the `stack name` when running `VPC_EC2_Instance_With_IPv4_Public_UAT.yml`
