@@ -8,5 +8,4 @@
       register: output
       changed_when: output.rc != 0
     - name: Output Message
-      ansible.build.debug:
-        var: output.stdout
+      ansible.builtin.debug:
