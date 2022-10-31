@@ -9,4 +9,3 @@
       changed_when: output.rc != 0
     - name: Output Message
       ansible.builtin.debug:
-        var: output.stdout
