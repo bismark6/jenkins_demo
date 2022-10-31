@@ -1,0 +1,12 @@
+---
+- name: Transfer and execute a script
+  hosts: github_runners
+  remote_user:
+  tasks:
+    - name: Echo a message
+      ansible.builtin.command: echo "HELLOW"
+      register: output
+      changed_when: output.rc != 0
+    - name: Output Message
+      ansible.build.debug:
+        var: output.stdout
